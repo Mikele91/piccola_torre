@@ -1,14 +1,12 @@
 <template>
-                    <!-- prima riga  -->
-
-                    <div  class="card" style="width: 18rem;">
-                        <img :src="info.imgCard" class="card-img-top " alt="">
-                            <div class="card-body">
-                                <h5 class="card-title"> {{info.title}} </h5>
-                                <p class="card-text">{{info.text}}</p>
-                                <a @click="$emit('buttonEvent', info.id)" :id="info.id"  class="btn btn-primary">Dettagli {{info.title}} </a>
-                            </div>
-                    </div>
+    <!-- prima riga  -->
+    <div @click="$emit('buttonEvent', info.id)" :id="info.id"  class="card " style="width: 18rem;">
+        <img :src="info.imgCard" class="card-img-top " alt="">
+        <div class="card-body d-flex flex-column align-items-center">
+            <h5 class="card-title"> {{info.title}} </h5>
+            <a @click="$emit('buttonEvent', info.id)" :id="info.id"  class="btn btn-primary">Dettagli {{info.title}} </a>
+        </div>
+    </div>
 
 </template>
 
@@ -34,8 +32,22 @@ img{
     padding: 8px 
 }
 .card{
-
     border: none;
+    margin-bottom: 1.875rem;
+    opacity: 0.8;
+    transition:  0.4s;
+
+    img{
+        border-radius: 30%;
+        transition:  0.4s;
+    }
+}
+.card:hover{
+    opacity: 1;
+    img{
+        border-radius: 10%;
+    }
+    
 }
 #cameraRossa{
     border-color: #9e0028;
@@ -46,6 +58,12 @@ img{
     border-color:rgb(255, 208, 0) ;
     color:black;
     background-color: rgb(255, 208, 0);
+}
+
+#cameraBlue{
+    border-color:rgb(0, 153, 255) ;
+    color:black;
+    background-color:rgb(0, 153, 255);
 }
 
 </style> 

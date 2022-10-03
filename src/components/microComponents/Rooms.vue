@@ -8,10 +8,7 @@
 
         <section class="rooms_bottom">
             <InfoCarousel  :InfoCarousel="caroselRoomsActive" />
-    
-        
-    </section>
-    
+        </section>
     </div>
 </template>
 
