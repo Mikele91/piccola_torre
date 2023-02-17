@@ -48,13 +48,18 @@ name: 'Hero',
 
     .hero{
         max-width:75rem;
-        margin:auto
+        margin:auto;
+        box-shadow: 5px 5px 15px 5px #454545;
+        border-radius: .625rem;
+
     }
     .img_bg{
+        
         height: 500px;
         background-size: cover ;
         background-position: center;
         img{
+            border-radius: .625rem;
             width: 100%;
             height: 100%;
         }
