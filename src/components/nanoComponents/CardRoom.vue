@@ -1,6 +1,6 @@
 <template>
     <!-- prima riga  -->
-    <div @click="$emit('buttonEvent', info.id)" :id="info.id"  class="card " style="width: 18rem;">
+    <div @click="$emit('buttonEvent', info.id)" :id="info.id"  class="card  " style="width: 18rem;">
         <img :src="info.imgCard" class="card-img-top " alt="">
         <div class="card-body d-flex flex-column align-items-center">
             <h5 class="card-title"> {{info.title}} </h5>
