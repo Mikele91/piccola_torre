@@ -1,7 +1,8 @@
 <template>
     <div class="rooms ">
+        <h2 class=" text-center py-2">Le nostre camere</h2>
         <section class="rooms_top ">
-            <div class="row justify-content-between">
+            <div class="row justify-content-md-between justify-content-sm-center">
                     <CardRoom @buttonEvent="showCarosel" v-for="(info, index) in caroselRooms" :key="index" :info="info"  />
             </div>
         </section>

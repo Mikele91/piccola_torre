@@ -1,6 +1,6 @@
 <template>
     <section >
-        <div class="hero">
+        <div class="hero d-none d-sm-block">
             <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

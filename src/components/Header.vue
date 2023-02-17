@@ -17,7 +17,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">La Piccola Torre</a>
                                 </li>
                                 
-                                <li class="nav-item dropdown">
+                                <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Le nostre Camere
                                 </a>
@@ -27,13 +27,14 @@
                                     <li><hr class="dropdown-divider"></li>
                                     <li><a class="dropdown-item" href="#">Primo Piano </a></li>
                                 </ul>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>
                 </nav>
                 <!--/ Bootstrap nav -->
                 <InfoContacts/>
+
             </div>
             
         </section>
